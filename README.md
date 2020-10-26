@@ -1,4 +1,4 @@
-# Arkan Jaya API Server
+# GOlang API Server with Hexagolang architecture
 Sample REST API build using echo server.
 
 The code implementation was inspired by port and adapter pattern or known as [hexagonal](blog.octo.com/en/hexagonal-architecture-three-principles-and-an-implementation-example):
@@ -11,7 +11,7 @@ The code implementation was inspired by port and adapter pattern or known as [he
 To describe about how port and adapter interaction (separation concerned), this example will have two databases supported. There are MySQL and MongoDB.
 
 MongoDB will become a default databaese in this example. If you want to change into MySQL, update the configuration inside 
-[config.yaml](https://raw.githubusercontent.com/muhsinshodiq/golang-sample-api/master/config/config.yaml) file.
+[config.yaml](https://raw.githubusercontent.com/hudabikhoir/go-hexagon/master/config/config.yaml) file.
 
 # How To Run Server
 Just execute code below in your console
